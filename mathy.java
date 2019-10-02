@@ -246,19 +246,17 @@ public class mathy
 
 
 	}
+	public int conflictCode(int num)
+	{
+		//conflict hahahahahahahah -the better partner
+		return 0;
+	}
+
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
 
 	}
-
-
-
-
-
-
-
-
 
 
 

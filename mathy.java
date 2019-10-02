@@ -246,6 +246,11 @@ public class mathy
 
 
 	}
+	public int conflictCode(int num)
+	{
+		// Nonononono, we need to return num
+		return num;
+	}
 	public void testingbranch (int x)
 	{
 		System.out.print(x);

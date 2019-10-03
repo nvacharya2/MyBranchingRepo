@@ -248,6 +248,10 @@ public class mathy
 	}
 	public int conflictCode(int num)
 	{
+        //CONFLICT
+		// Nonononono, we need to return num
+		//return num;
+
 		//conflict hahahahahahahah -the better partner
 		return 0;
 	}

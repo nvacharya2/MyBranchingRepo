@@ -56,7 +56,7 @@ public class LinkedList
         first = newNode;
     }
 
-    
+
 
     public Object get(int n)
     {
@@ -81,7 +81,19 @@ public class LinkedList
         if (node == null) {throw new NoSuchElementException();}
         node.data = element;
     }
-    
+
+    public boolean contains(Object element)
+    {
+		Node temp = first;
+		while(temp.next != null)
+		{
+			if (temp.data.equals(element))
+				return true;
+			temp = temp.next;
+		}
+		return false;
+	}
+
     /**
      * Henry Kozurek
      */
@@ -164,7 +176,7 @@ public class LinkedList
         {
             position = null;
             previous = null;
-            isAfterNext = false; 
+            isAfterNext = false;
         }
 
         /**
